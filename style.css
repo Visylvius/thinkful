@@ -1,0 +1,23 @@
+.header li {
+  display: inline;
+  text-decoration: none;
+  padding: 10px;
+}
+.socialicons li{
+  display: inline;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+body {
+  background-color: white;
+}
+.welcome {
+  text-align: center;
+}
+.bodyParagraph {
+  text-align: center;
+}
+.socialMedia:hover {
+  color: blue;
+}
