@@ -25,3 +25,18 @@ function quiz() {
 }
 var myQuiz = quiz();
 console.log(myQuiz());
+//second problem
+
+function getNames() {
+  var counter = -1;
+  var names = ["William","Cindy","Maureen","Brenden"];
+  return function() {
+    return names[counter += 1];
+  };
+}
+var names = getNames();
+
+console.log(names());
+console.log(names());
+console.log(names());
+console.log(names());
